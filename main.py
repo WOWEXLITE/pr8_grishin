@@ -13,7 +13,6 @@ pwd_auto = (input('автоматически подобрать пароль? (
 for text, seq in(
                  ('Включить верхний регистор', symbols),
                  ('Включить нижний регистор', symbolslow),
-		 ('Включить нижний регистор', symbolslow),
                  ('Включить цифры' digits),
 
     if pwd_auto or(input(text + ' (y,n): ') == 'y'):
